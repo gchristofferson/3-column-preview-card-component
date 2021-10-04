@@ -156,14 +156,19 @@ GENERAL LAYOUT
 
     .card {
         width: 307px;
+        height: 500px;
     }
 
     .card + .card {
         margin-top: 0;
-        margin-left: -10px;
+        /*margin-left: -10px;*/
     }
 
     .card--3 {
         border-radius: 0 8px 8px 8px;
+    }
+
+    .card__text {
+        margin-bottom: 83px;
     }
 }
